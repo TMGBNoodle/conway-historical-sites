@@ -29,12 +29,12 @@ class _AdminListPageState extends State<AdminListPage> {
     setState(() {});
   }
 
-  Future<void> showRatingDialog() async {
-    await showDialog<double>(
-      context: context,
-      builder: (BuildContext context) => const RatingDialog(),
-    );
-  }
+  // Future<void> showRatingDialog() async {
+  //   await showDialog<double>(
+  //     context: context,
+  //     builder: (BuildContext context) => const RatingDialog(),
+  //   );
+  // }
 
   late Timer updateTimer;
   @override
@@ -76,7 +76,7 @@ class _AdminListPageState extends State<AdminListPage> {
             itemCount: widget.app_state.historicalSites.length,
             itemBuilder: (BuildContext context, int index) {
               HistSite site = widget.app_state.historicalSites[index];
-              return ListItem(siteInfo: site);
+              return ListItem(siteInfo: site, app_state: widget.app_state);
             },
           ),
         ),

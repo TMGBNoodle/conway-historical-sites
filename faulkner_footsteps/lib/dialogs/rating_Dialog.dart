@@ -24,7 +24,9 @@ class _RatingDialogState extends State<RatingDialog> {
         'Please rate your experience at this location:',
         style: GoogleFonts.rakkas(
             textStyle: const TextStyle(
-                color: Color.fromARGB(255, 62, 50, 50), fontSize: 20.0)),
+                color: Color.fromARGB(255, 62, 50, 50), 
+                fontSize: 20.0),
+        ),
       ),
       content: Column(
         mainAxisSize: MainAxisSize.min,

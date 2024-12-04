@@ -106,11 +106,9 @@ class ApplicationState extends ChangeNotifier {
       FirebaseFirestore.instance.collection("sites").doc(siteName).collection("ratings").doc(FirebaseAuth.instance.currentUser!.uid).set({"rating" : newRating});
       await FirebaseFirestore.instance.collection("sites").doc(siteName).collection("ratings").get().then(
         (snapshot) {
-          print("wrqwherkjqwhrjqwr");
           for(final doc in snapshot.docs) {
             totalRating += doc.data()["rating"];
             ratingcount += 1;
-            print("wrqwherkjqwhrjqwr");
             print(totalRating);
             print(ratingcount);
           }
@@ -122,4 +120,5 @@ class ApplicationState extends ChangeNotifier {
       FirebaseFirestore.instance.collection("sites").doc(siteName).update({"avgRating" : finalRating, "ratingCount" : ratingcount});
       notifyListeners();
     }
+  }
 }
