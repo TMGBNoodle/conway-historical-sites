@@ -16,6 +16,7 @@ packages:
       sha256: "71c01c1998c40b3af1944ad0a5f374b4e6fef7f3d2df487f3970dbeadaeb25a1"
       url: "https://pub.dev"
     source: hosted
+<<<<<<< Updated upstream
     version: "1.3.46"
   _macros:
     dependency: transitive
@@ -30,6 +31,9 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.7.0"
+=======
+    version: "1.3.44"
+>>>>>>> Stashed changes
   args:
     dependency: transitive
     description:
@@ -174,6 +178,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.3"
+<<<<<<< Updated upstream
   file:
     dependency: transitive
     description:
@@ -182,6 +187,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "7.0.1"
+=======
+>>>>>>> Stashed changes
   firebase_auth:
     dependency: "direct main"
     description:
@@ -330,6 +337,7 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+<<<<<<< Updated upstream
   frontend_server_client:
     dependency: transitive
     description:
@@ -353,6 +361,15 @@ packages:
       sha256: b1ac0fe2832c9cc95e5e88b57d627c5e68c223b9657f4b96e1487aa9098c7b82
       url: "https://pub.dev"
     source: hosted
+=======
+  google_fonts:
+    dependency: "direct main"
+    description:
+      name: google_fonts
+      sha256: b1ac0fe2832c9cc95e5e88b57d627c5e68c223b9657f4b96e1487aa9098c7b82
+      url: "https://pub.dev"
+    source: hosted
+>>>>>>> Stashed changes
     version: "6.2.1"
   http:
     dependency: transitive
@@ -386,6 +403,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.19.0"
+<<<<<<< Updated upstream
   io:
     dependency: transitive
     description:
@@ -402,6 +420,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.7.1"
+=======
+>>>>>>> Stashed changes
   latlong2:
     dependency: "direct main"
     description:
@@ -441,7 +461,11 @@ packages:
       sha256: "3315600f3fb3b135be672bf4a178c55f274bebe368325ae18462c89ac1e3b413"
       url: "https://pub.dev"
     source: hosted
+<<<<<<< Updated upstream
     version: "5.0.0"
+=======
+    version: "4.0.0"
+>>>>>>> Stashed changes
   lists:
     dependency: transitive
     description:
@@ -458,6 +482,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.5.0"
+<<<<<<< Updated upstream
   logging:
     dependency: transitive
     description:
@@ -474,6 +499,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.1.2-main.4"
+=======
+>>>>>>> Stashed changes
   matcher:
     dependency: transitive
     description:
@@ -506,6 +533,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.0"
+<<<<<<< Updated upstream
   mime:
     dependency: transitive
     description:
@@ -522,6 +550,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.4"
+=======
+>>>>>>> Stashed changes
   nested:
     dependency: transitive
     description:
@@ -642,6 +672,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.1"
+<<<<<<< Updated upstream
   pool:
     dependency: transitive
     description:
@@ -650,6 +681,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.5.1"
+=======
+>>>>>>> Stashed changes
   proj4dart:
     dependency: transitive
     description:
@@ -935,6 +968,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.0"
+<<<<<<< Updated upstream
   web_socket:
     dependency: transitive
     description:
@@ -959,6 +993,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.1"
+=======
+>>>>>>> Stashed changes
   wkt_parser:
     dependency: transitive
     description:
@@ -983,14 +1019,10 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.5.0"
-  yaml:
-    dependency: transitive
-    description:
-      name: yaml
-      sha256: "75769501ea3489fca56601ff33454fe45507ea3bfb014161abc3b43ae25989d5"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.1.2"
 sdks:
+<<<<<<< Updated upstream
   dart: ">=3.5.0 <4.0.0"
+=======
+  dart: ">=3.5.2 <4.0.0"
+>>>>>>> Stashed changes
   flutter: ">=3.24.0"
